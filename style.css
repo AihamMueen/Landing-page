@@ -166,7 +166,7 @@ li a {
   flex-direction: column;
   justify-content: center;
   text-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   background-color: #E5E7EB;
   padding: 140px;
   align-items: center;
@@ -190,4 +190,44 @@ li a {
  font-weight: bold;
  font-size: 20px;
  width: 550px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  text-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 40px;
+  background-color: #c61616;
+  padding: 140px;
+  align-items: center;
+}
+
+.action {
+  display: flex;
+  flex-direction: column; 
+  background-color: #3b82f6;
+  justify-content: center;
+  padding: 10px 20px;
+  height: 135px;
+  width: 700px;
+  border-radius: 10px 0 0 10px;
+}
+
+.signup {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  height: 135px;
+  width: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
 }
