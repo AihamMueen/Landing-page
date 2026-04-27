@@ -199,35 +199,51 @@ li a {
   justify-content: center;
   text-wrap: wrap;
   margin-top: 0;
-  margin-bottom: 40px;
-  background-color: #c61616;
   padding: 140px;
   align-items: center;
 }
 
-.action {
+.Call-to-action {
   display: flex;
-  flex-direction: column; 
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 1000px;
+}
+
+.action {
   background-color: #3b82f6;
   justify-content: center;
+  color: white;
   padding: 10px 20px;
-  height: 135px;
-  width: 700px;
   border-radius: 10px 0 0 10px;
+  text-align: left;
 }
 
 .signup {
   background-color: #3b82f6;
   color: white;
   padding: 10px 20px;
-  border: none;
   text-decoration: none;
   font-weight: bold;
-  height: 135px;
-  width: 120px;
   text-align: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.signup button {
+  border: 2px solid white;
+}
+
+
+/* Footer */
+
+.footer {
+  margin-top: 0;
+  margin-bottom: 0; 
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 10px 10px 0;
+  background-color: #1f2937;
+  color: white;
+  padding: 15px;
 }
